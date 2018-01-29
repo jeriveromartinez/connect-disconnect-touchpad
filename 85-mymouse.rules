@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="usb", RUN+="/lib/udev/mymouse.sh"
+ACTION=="remove", SUBSYSTEM=="usb", RUN+="/lib/udev/mymouse.sh"
